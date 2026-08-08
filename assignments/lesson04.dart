@@ -25,4 +25,13 @@ void main(){
   } else {
     print("Fail");
   }
+
+  bool hasEmail = true;
+bool hasPassword = true;
+
+  if (hasEmail && hasPassword){
+    print("Login Successful");
+  } else {
+    print("Login Failed");
+  }
 }
